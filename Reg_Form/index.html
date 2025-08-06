@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reistration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <p></p>
+        <form>
+            <label for>First Name</label>
+
+            <label for>Last Name</label>
+            <input type="text" required>
+
+            <label for>Email</label>
+            <input type="email" required>
+
+            <label for>Create Password</label>
+            <input type="password" required>
+
+            <div class="options">
+                <input type="radio" name="info"> Program
+                <input type="radio" name="info"> Year level
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" required> I accept the <a href="#">term and condition</a>
+            </div>
+
+            <p class="notice">
+                The school ensures data protection by adhering to relevant privacy
+                laws, applying encryption, and requiring informed consent before
+                any external sharing.
+            </p>
+
+            <label>Upload a profile picture</label>
+
+            <label for>Birthdate</label>
+            <input type="date">
+
+            <label>Specialization</label>
+            <select>
+                <option values="">select one</option>
+                <option>IT</option>
+            </select>
+
+            <label>BIO</label>
+            <textarea placeholder="I like coding on the beach..."></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
